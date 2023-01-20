@@ -25,7 +25,7 @@ public class BirdScript : MonoBehaviour
         if (isDead == false)
         {
             //look for input to trigger a "flap".
-            if (Input.GetMouseButton(0))
+            if (Input.GetMouseButtonDown(0))
             {
                 //tell animator to do sprite thing
                 anim.SetTrigger("Flap");
@@ -34,7 +34,7 @@ public class BirdScript : MonoBehaviour
                 rb2d.velocity = Vector2.zero;
 
                 //give the bird force upward
-                rb2d.AddForce(new Vector2(0, upForce));
+                rb2d.AddForce(new Vector2(0, upForce * 2));
             }
         }
     }
@@ -50,7 +50,7 @@ public class BirdScript : MonoBehaviour
         //tell animator to do sprite thing
         anim.SetTrigger("Die");
 
-        //tell game manager to 
-        //GameManager.instance.BirdDied();
+        //tell game manager to display UI
+        GameManager.instance.BirdDied();
     }
 }

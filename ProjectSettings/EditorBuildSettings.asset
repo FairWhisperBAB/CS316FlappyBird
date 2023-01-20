@@ -6,6 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Scenes/TitleScene.unity
+    guid: 3ecaacdf24e1444cf8033103b2a5659b
+  - enabled: 1
+    path: Assets/Scenes/FlappyHands.unity
+    guid: 0c97118963e5841f5a0ca4b8affa77e1
+  - enabled: 1
+    path: Assets/Scenes/FlappyAngels.unity
+    guid: 08239c2738cc5452caefd07d02c3dc0c
   m_configObjects: {}
