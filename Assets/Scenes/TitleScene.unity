@@ -996,7 +996,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Flappy Angels
+  m_text: Flappy Cthulhu
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2f24ce7e8043f4cca9d58bb79bf0d6d5, type: 2}
   m_sharedMaterial: {fileID: -3229253562441028442, guid: 2f24ce7e8043f4cca9d58bb79bf0d6d5, type: 2}

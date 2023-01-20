@@ -48,6 +48,9 @@ TagManager:
   - name: Midground
     uniqueID: 21902629
     locked: 0
+  - name: columns
+    uniqueID: 3633627555
+    locked: 0
   - name: Forground
     uniqueID: 1122996923
     locked: 0
